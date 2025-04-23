@@ -26,7 +26,7 @@ https://github.com/SonmezYigithan/AIChatApp-iOS/assets/30535277/3c9d61e4-39ec-40
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# On-Device GPT
 
 ## Table of Contents
 
@@ -39,17 +39,17 @@ Original App Design Project - README Template
 
 ### Description
 
-[Description of your app]
+Allows everyone to ask a local GPT any questions on device. So the app can also work offline.
 
 ### App Evaluation
 
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Productivity
+- **Mobile:** Mobile is essential for the privacy of the users' search query. Since the GPT model is on-device, the user can ask the GPT anywhere, even places where WiFi is inaccessible.
+- **Story:** The need for AI doesn’t always align with connectivity. Whether you’re on a plane, in a remote area, or simply want control over your data, this app empowers you with a personal assistant that works anytime, anywhere—without sending a single word to the cloud.
+- **Market:** Power users, digital nomads, students, professionals, and privacy-conscious individuals. Especially valuable in industries like legal, healthcare, or government where data confidentiality is critical. Could also appeal to enterprise users as a secure AI layer within internal apps. 
+- **Habit:** Highly habitual for knowledge work—daily usage expected for note-taking, summarization, coding help, or planning. Offline availability makes it a go-to tool in both casual and mission-critical workflows.
+- **Scope:** Medium. The MVP includes a compact LLM with local inference, system prompt customization, and a basic text UI. Advanced features could include voice integration, file summarization, plug-in support, and cross-app context awareness (e.g., assist while emailing or coding). Requires deep model optimization, hardware-specific tuning, and a thoughtful UX for AI interactions.
 
 ## Product Spec
 
