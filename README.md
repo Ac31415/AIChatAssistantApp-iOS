@@ -112,7 +112,7 @@ Allows everyone to ask a local GPT any questions on device. So the app can also 
 
 ## Demo
 
-<div style="position: relative; padding-bottom: 215.5688622754491%; height: 0;"><iframe src="https://www.loom.com/embed/e2b7927f9da34863b2aef75c895ee96a?sid=feed611d-610a-4a7c-b2d0-17a51cfbf6fc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<iframe src="https://www.loom.com/embed/e2b7927f9da34863b2aef75c895ee96a?sid=feed611d-610a-4a7c-b2d0-17a51cfbf6fc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 
 <!-- ### [BONUS] Digital Wireframes & Mockups
 
