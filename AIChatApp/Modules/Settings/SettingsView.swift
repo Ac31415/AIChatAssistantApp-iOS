@@ -107,7 +107,8 @@ final class SettingsView: UIViewController {
         
         settings = [SettingsCell(name: "Share The App", image: UIImage(systemName: "shareplay"), link: nil),
                     SettingsCell(name: "Help", image: UIImage(systemName: "questionmark"), link: nil),
-                    SettingsCell(name: "Rate Us", image: UIImage(systemName: "star.fill"), link: nil),]
+                    SettingsCell(name: "Rate Us", image: UIImage(systemName: "star.fill"), link: nil),
+                    SettingsCell(name: "Manage Models", image: UIImage(systemName: "arrow.down.message"), link: nil),]
         
         moreApps = [SettingsCell(name: "Game Listing App", image: UIImage(systemName: "gamecontroller.fill"), link: "https://github.com/SonmezYigithan/GameListingApp-iOS"),
                     SettingsCell(name: "Shopping App", image: UIImage(systemName: "cart.fill"), link: "https://github.com/SonmezYigithan/ShoppingApp-iOS"),

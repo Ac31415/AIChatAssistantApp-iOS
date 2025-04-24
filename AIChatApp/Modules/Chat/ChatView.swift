@@ -127,7 +127,8 @@ extension ChatView: ChatViewProtocol {
     }
     
     func sendButtonClicked(message: String) {
-        viewModel?.sendMessage(message: message)
+//        viewModel?.sendMessage(message: message)
+        viewModel?.sendMessagePrivate(message: message)
     }
     
     func navigateToCameraInputView() {

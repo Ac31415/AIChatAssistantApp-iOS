@@ -30,6 +30,7 @@ protocol ChatViewModelProtocol {
     var view: ChatViewProtocol? { get set }
     
     func sendMessage(message: String)
+    func sendMessagePrivate(message: String)
     func viewDidLoad()
     func loadChatMessages(chatMessages: [ChatMessageEntity])
 }
@@ -65,6 +66,24 @@ extension ChatViewModel: ChatViewModelProtocol {
             generateImage()
         }else {
             generateText()
+        }
+    }
+    
+    func sendMessagePrivate(message: String) {
+        let userMessage = ChatMessage(role: "user", content: message)
+        messages.append(userMessage)
+        
+        if canGenerateChatTitle {
+            generateChatTitle()
+        }
+        
+        displayMessage(message: userMessage, imageMessage: nil)
+        saveMessage(message: userMessage, imageMessage: nil)
+        
+        if chatParameters.chatType == .imageGeneration {
+            generateImage()
+        }else {
+            generateTextPrivate()
         }
     }
     
@@ -113,6 +132,24 @@ extension ChatViewModel: ChatViewModelProtocol {
             }
         }
     }
+    
+    
+    private func generateTextPrivate() {
+        if chatParameters.chatType == .persona {
+            let message = ChatMessage(role: "assistant", content: "I like to sing, and Shake it Off!")
+            self.messages.append(message)
+            print("On-Device GPT: \(message.content)")
+            self.displayMessage(message: message, imageMessage: nil)
+            self.saveMessage(message: message, imageMessage: nil)
+        } else {
+            let message = ChatMessage(role: "assistant", content: "I'm an offline AI assistant, you can ask me anything, anytime, anywhere! Even offline!")
+            self.messages.append(message)
+            print("On-Device GPT: \(message.content)")
+            self.displayMessage(message: message, imageMessage: nil)
+            self.saveMessage(message: message, imageMessage: nil)
+        }
+    }
+    
     
     private func generateImage() {
         if let message = messages.last {
@@ -192,7 +229,8 @@ extension ChatViewModel: ChatViewModelProtocol {
                 senderName = chatParameters.aiName
                 senderType = .persona
             }else if chatParameters.chatType == .textGeneration {
-                senderName = chatParameters.aiName
+//                senderName = chatParameters.aiName
+                senderName = "On-Device GPT"
                 senderType = .chatGPT
             }else {
                 senderName = chatParameters.aiName

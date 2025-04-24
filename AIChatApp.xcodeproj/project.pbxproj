@@ -663,7 +663,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NX5WVK23N8;
+				DEVELOPMENT_TEAM = VKUL788L4J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AIChatApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "AI Chat App";
@@ -679,7 +679,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yigithansonmez.AIChatApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WCC.AIChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -696,7 +696,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NX5WVK23N8;
+				DEVELOPMENT_TEAM = VKUL788L4J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AIChatApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "AI Chat App";
@@ -712,7 +712,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yigithansonmez.AIChatApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WCC.AIChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;

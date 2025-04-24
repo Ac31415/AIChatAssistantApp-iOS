@@ -53,50 +53,63 @@ Allows everyone to ask a local GPT any questions on device. So the app can also 
 
 ## Product Spec
 
-### 1. User Stories (Required and Optional)
+### 1. User Features (Required and Optional)
 
-**Required Must-have Stories**
+**Required Must-have Features**
 
-* [fill in your required user stories here]
-* ...
+* User can chat with an offline agent
+* User can chat with various offline agents
+* User can access and favorite chat histories
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Manage local llm models
+* Ask LLM to process images
 
 ### 2. Screen Archetypes
 
-- [ ] [list first screen here]
-* [list associated required story here]
-* ...
-list second screen here]
-* [list associated required story here]
-* ...
+- Chat Screen
+    * User can chat with and ask the general AI assistant for image generation here
+    * User can access chat history here
+
+- Personas Screen
+    * User can interact with various AI assistants here
+
+- More Screen
+    * User can manage downloaded LLM's and more here
+
+- Chat History Screen
+    * User can manage and view chat histories here
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Personas
+* Chat
+* More
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] [list first screen here]
-* [list screen navigation here]
-* ...
-- [ ] [list second screen here]
-* [list screen navigation here]
-* ...
+- Personas Screen
+    * => Celebrity/Expert Chat screen
+
+- Chat Screen
+    * => History Screen
+    * => General Chat Screen
+    * => Image Generation Screen
+
+- History Screen
+    * => Past Chat Screen
+
+- More Screen
+    * => None (For now)
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="imgs/iOS_WireFrame.drawio.png" width=600>
 
-### [BONUS] Digital Wireframes & Mockups
+<!-- ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
 
@@ -112,4 +125,4 @@ list second screen here]
 
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- [OPTIONAL: List endpoints if using existing API such as Yelp] -->
